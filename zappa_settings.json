@@ -1,0 +1,10 @@
+{
+    "dev": {
+        "app_function": "app.app", 
+        "aws_region": "us-east-1",
+        "profile_name": "default", 
+        "project_name": "lambda_backend",
+        "s3_bucket": "lambda-bkend",
+        "remote_env": "s3://lambda-bkend/env.json"
+    }
+}
