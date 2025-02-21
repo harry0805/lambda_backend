@@ -1,4 +1,4 @@
-# Deploy a serverless web backend to AWS lambda using Zappa
+# Deploy a serverless webserver to AWS lambda using Zappa
 
 ## Setup AWS Credentials
 Must have a `credentials` file in your `~/.aws/` folder.
