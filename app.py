@@ -52,16 +52,7 @@ def register():
         return redirect(url_for('home'))
 
     # Simple HTML form for registration
-    return '''
-        <h2>Register</h2>
-        <form method="post">
-            <input type="text" name="username" placeholder="Username" required/><br>
-            <input type="password" name="password" placeholder="Password" required/><br>
-            <input type="submit" value="Register"/>
-        </form>
-        <br>
-        <a href="/login">Already have an account? Login here</a>
-    '''
+    return render_template('register.html')
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():

@@ -5,6 +5,8 @@
         "profile_name": "default", 
         "project_name": "lambda_backend",
         "s3_bucket": "lambda-bkend",
-        "remote_env": "s3://lambda-bkend/env.json"
+        "remote_env": "s3://lambda-bkend/env.json",
+        "keep_warm": false,
+        "slim_handler": true
     }
 }
